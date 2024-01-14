@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con Formularios</title>
+</head>
+
+<body>
+    <form action="/02 Primeros pasos/">
+        <section class="Datos Personales">
+            <h1>Datos Personales</h1>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre">
+            <br>
+            <label for="Correo">Corre Electrónico:</label>
+            <input type="email" name="Correo" id="Correo" required>
+            <br>
+            <label for="Teléfono">Télefono:</label>
+            <input type="tel" name="Teléfono" id="telefono">
+        </section>
+        <section class="Genero">
+            <h1>
+                Género
+            </h1>
+            <fieldset>
+                <input type="radio" id="masculino" name="radio">
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="Femenino" name="radio">
+                <label for="Femenino">Femenino</label>
+                <br>
+                <input type="radio" id="Otro" name="radio">
+                <label for="Otro">Otro</label>
+            </fieldset>
+        </section>
+        <section>
+            <h1>preferencias</h1>
+            <fieldset>
+                <input type="checkbox" id="musica" name="check">
+                <label for="masculino">Musica</label>
+                <br>
+                <input type="checkbox" id="Deportes" name="check">
+                <label for="Deportes">Deportes</label>
+                <br>
+                <input type="checkbox" id="Lectura" name="check">
+                <label for="Lectura">Lectura</label>
+            </fieldset>
+        </section>
+        <section>
+            <h1>Comentarios</h1>
+            <textarea cols="50" rows="5">
+
+            </textarea>
+        </section>
+       <button>Enviar</button>
+    </form>
+
+</body>
+
+</html>

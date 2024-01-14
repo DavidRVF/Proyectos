@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+
+    background-color: rgb(35, 118, 243);
+    height: 90px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+main {
+    margin: 0;
+    overflow: hidden;
+    width: auto;
+    height: 500px;
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(35, 118, 243);
+    color: whitesmoke;
+    height: 24px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#component {
+    background-color: salmon;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+}

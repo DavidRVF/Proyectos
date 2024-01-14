@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas animadas</title>
+    <style>
+        header {
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgb(58, 56, 56);
+            height: 130px;
+            width: 100%;
+            text-align: center;
+
+        }
+
+        nav h1 {
+            color: white;
+        }
+
+        nav button {
+            border: 1px solid white;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background-color: rgb(58, 56, 56);
+            color: white;
+        }
+
+        nav button:hover {
+            background-color: rgb(194, 233, 248);
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-top: 140px;
+        }
+
+        .image {
+            background-color: rgb(215, 245, 235);
+            width: auto;
+            height: auto;
+            border: 1px solid rgb(201, 201, 201);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .image img {
+            height: 200px;
+            width: auto;
+            padding: 10px;
+
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgb(58, 56, 56);
+                height: 130px;
+                width: 100%;
+                text-align: center;
+
+            }
+
+            nav h1 {
+                color: white;
+            }
+
+            nav button {
+                border: 1px solid white;
+                width: 100px;
+                height: 40px;
+                text-align: center;
+                background-color: rgb(58, 56, 56);
+                color: white;
+            }
+
+            nav button:hover {
+                background-color: rgb(194, 233, 248);
+            }
+
+            main {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                flex-direction: column;
+                padding-top: 140px;
+            }
+
+            .image {
+                background-color: rgb(215, 245, 235);
+                width: auto;
+                height: auto;
+                border: 1px solid rgb(201, 201, 201);
+                padding: 10px;
+                margin: 10px;
+            }
+
+            .image img {
+                height: 100px;
+                width: auto;
+                padding: 10px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Pelicualas Animadas</h1>
+            <button>
+                Menú
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div class="image">
+            <h4>Monster INC</h4>
+            <img src="https://www.eluniversal.com.mx/resizer/0n6FMUelK7oyBP9wK6yNoswphWw=/980x528/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/XLMQ5HHC2ZH2LFQOYZ7JYQGZFY.jpg"
+                alt="">
+            <p>Lorem ipsum dolor, sit amet consectet</p>
+            <a href="#">Ver más...</a>
+        </div>
+        <div class="image">
+            <h4>Monster INC</h4>
+            <img src="https://www.eluniversal.com.mx/resizer/0n6FMUelK7oyBP9wK6yNoswphWw=/980x528/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/XLMQ5HHC2ZH2LFQOYZ7JYQGZFY.jpg"
+                alt="">
+            <p>Lorem ipsum dolor, sit amet consectet</p>
+            <a href="#">Ver más...</a>
+        </div>
+    </main>
+</body>
+
+</html>

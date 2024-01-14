@@ -1,0 +1,74 @@
+<style>
+    p:hover {
+        color: red;
+        background-color: aqua;
+    }
+
+    button:active {
+        color: red;
+        background-color: aquamarine;
+    }
+
+    input {
+        display: block;
+    }
+
+    input:focus {
+        outline: 2px solid lightgreen;
+    }
+    a:visited {
+        color: purple;
+    }
+    p:last-child {
+        font-weight: bolder;
+    }
+    p:first-child {
+        font-style: italic;
+    }
+    p:nth-child(2) {
+        color: red;
+    }
+    p:not(.excluir) {
+        text-decoration: underline;
+    }
+    p:nth-of-type(odd) {
+        background-color: yellow;
+    }
+    input:checked {
+        outline: 2px solid red;
+    }
+</style>
+<html>
+
+<body>
+
+    <p>Lorem ipsum</p>
+    <button>Has click</button>
+    <input type="text" placeholder="HOLA">
+    <a href="#">Enlace</a>
+    <div>
+        <p>Pirmer parrafo</p>
+        <p>Segundo Parrafo</p>
+        <p>Segundo Parrafo</p>
+    </div>
+    <div>
+        <p class="excluir">No subrayado</p>
+        <p>subrayado</p>
+    </div>
+    <div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+    </div>
+    <div>
+        <input type="checkbox">
+        <input type="checkbox">
+    </div>
+    <p>
+        <span>tiene span</span>
+    </p>
+    <p>no tiene span</p>
+</body>
+</html>

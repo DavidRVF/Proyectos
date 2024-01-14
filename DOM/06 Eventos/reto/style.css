@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: rgb(27, 21, 21);
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#tarjeta {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.contain {
+    flex-wrap: wrap;
+    border: 1px solid rgb(196, 189, 189);
+    width: auto;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(247, 242, 236, 0.932);
+
+}
+main {
+    flex: 1;
+}
+footer {
+    background-color: rgb(29, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+button {
+    margin-top: 90px;
+    transition: 0.3s all ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.4);
+    background-color: greenyellow;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.mensaje-transicion {
+    position: absolute;
+    height: 80px;
+    margin-left: 15px;
+    border-radius: 30px;
+    width: 0;
+    transition: 0.5s all ease-in-out;
+    color: white;
+    top: 10px;
+
+}
+
+.mensaje-visible {
+    width: 270px;
+}

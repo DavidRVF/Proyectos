@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            
+        }
+        header {
+            background-color: rgb(48, 241, 241);
+            color: white;
+            width: 100%;
+            height: 90px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .main {
+            display: flex;
+            text-align: left;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+        .main div {
+            background-color: aliceblue;
+            margin: 5px;
+            height: 220px;
+            width: 230px;
+            border: 1px solid antiquewhite;
+            padding: 10px;
+            transition: all 0.3s ease-out
+
+        }
+        .main div img {
+            height: 100px;
+        }
+        .text {
+            display: none;
+        }
+        .main div:hover {
+            height: auto;
+
+        }
+        .main div:hover h3 {
+            color: orange;
+            transition: all 0.3s ease-out
+        }
+        .main div:hover .text {
+            display:block;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Últimas noticias</h1>
+        </nav>
+    </header>
+    <main> 
+        <section>
+            <div class="main">
+                <div>
+                    <img src="https://media.datacenterdynamics.com/media/images/Extra.2e16d0ba.fill-1200x630.jpg" alt="">
+                    <h3>Noticia 1</h3>
+                    <p>Descripcion de la Noticia</p>
+                    <p class="desc">Autor: xxxxxxxxx<br></p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta iste autem sed, enim vitae reprehenderit ducimus ea. Fugit, officiis optio? Delectus voluptates totam soluta dolore officia rerum consectetur reiciendis!</p>
+                </div>
+                <div>
+                    <img src="https://media.datacenterdynamics.com/media/images/Extra.2e16d0ba.fill-1200x630.jpg" alt="">
+                    <h3>Noticia 2</h3>
+                    <p>Descripcion de la Notici</p>
+                    <p class="desc">Autor: xxxxxxxxx<br></p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta iste autem sed, enim vitae reprehenderit ducimus ea. Fugit, officiis optio? Delectus voluptates totam soluta dolore officia rerum consectetur reiciendis!</p>
+                </div>
+                <div>
+                    <img src="https://media.datacenterdynamics.com/media/images/Extra.2e16d0ba.fill-1200x630.jpg" alt="">
+                    <h3>Noticia 3</h3>
+                    <p>Descripcion de la Notici</p>
+                    <p class="desc">Autor: xxxxxxxxx<br></p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta iste autem sed, enim vitae reprehenderit ducimus ea. Fugit, officiis optio? Delectus voluptates totam soluta dolore officia rerum consectetur reiciendis!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
